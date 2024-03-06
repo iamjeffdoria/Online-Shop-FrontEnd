@@ -18,22 +18,20 @@ th, td, caption {
     padding: 0.5rem;
 }
 
-/* CSS for Jolly Home Section with Two-Tone Gradient and White Smoke Text Color */
-/* Style the header */
 header {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #333 50%, #FFA500 50%); /* Two-tone gradient */
-    color: whitesmoke; /* White smoke text */
-    font-family: 'Comic Sans MS', cursive; /* Playful font */
+    background: linear-gradient(135deg, #333 50%, #FFA500 50%);
+    color: whitesmoke; 
+    font-family: 'Comic Sans MS', cursive; 
 }
 
-/* Style the header h1 */
+
 header h1 {
     font-size: 3em;
 }
 
-/* Style the navigation links */
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -46,234 +44,233 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: whitesmoke; /* White smoke text */
+    color: whitesmoke; 
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #FF4500; /* Orange on hover */
+    color: #FF4500; 
 }
 
-/* Style the main section */
+
 main {
     padding: 20px;
-    background: linear-gradient(135deg, #333 50%, #FFA500 50%); /* Two-tone gradient */
-    color: whitesmoke; /* White smoke text */
+    background: linear-gradient(135deg, #333 50%, #FFA500 50%); 
+    color: whitesmoke; 
 }
 
-/* Style article headings */
-article h2 {
-    color: whitesmoke; /* White smoke text */
+
+    color: whitesmoke; 
 }
 
-/* Style links in articles */
+
 article a {
-    color: #007bff; /* Blue */
+    color: 
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 article a:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3;
 }
 
-/* CSS for Table Borders with White Smoke Color and Black Borders */
+
 table {
     border-collapse: collapse;
-    margin-bottom: 20px; /* Add some space below the table */
-    border: 1px solid black; /* Black border */
+    margin-bottom: 20px; 
+    border: 1px solid black; 
 }
 
 table th,
 table td {
-    border: 1px solid black; /* Black border color */
+    border: 1px solid black; 
     padding: 8px;
 }
 
 table th {
-    background-color: #333; /* Dark background color for table headers */
-    color: whitesmoke; /* White text color for table headers */
+    background-color: #333; 
+    color: whitesmoke; 
 }
 
 table caption {
-    caption-side: top; /* Display caption on top */
-    padding-bottom: 8px; /* Add some space below the caption */
+    caption-side: top; 
+    padding-bottom: 8px; 
     font-style: italic;
 }
 
 tbody,
 tfoot {
-    background-color: #fff; /* White background color for tbody and tfoot */
+    background-color: #fff;
 }
 
 tbody,
 tfoot,
 td,
 th {
-    color: #000; /* Black text color for tbody, tfoot, td, and th */
+    color: #000; 
 }
-/* CSS for Contact Form Buttons */
+
 button {
-    background-color: #333; /* Orange background color */
-    color: #fff; /* White text color */
-    padding: 10px 20px; /* Add padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add border radius */
-    cursor: pointer; /* Add cursor pointer on hover */
-    transition: background-color 0.3s ease; /* Add transition effect */
+    background-color: #333;
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #FF4500; /* Darker orange on hover */
+    background-color: #FF4500; 
 }
-/* CSS for Copyright Notice */
+
 footer {
-    text-align: center; /* Align text to the center */
-    margin-top: 20px; /* Add some space above the footer */
-    background: linear-gradient(135deg, #FFD700, #ca902a); /* Light gradient from golden yellow to orange */
-    padding: 10px 0; /* Add padding */
+    text-align: center; 
+    margin-top: 20px; 
+    background: linear-gradient(135deg, #FFD700, #ca902a); 
+    padding: 10px 0;
 }
 
 footer p {
-    color: #333; /* Dark text color */
+    color: #333; 
 }
 
-/* CSS for "Back to Top" Link */
+
 p a {
-    color: #1a1616; /* White text color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease; /* Add transition effect */
-    background-color: #FFA500; /* Orange background color */
-    padding: 5px 10px; /* Add padding */
-    border-radius: 5px; /* Add border radius */
+    color: #1a1616;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+    background-color: #FFA500; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
 p a:hover {
-    color: #eeeee6; /* Orange on hover */
-    background-color: #333; /* Lighter orange background color on hover */
+    color: #eeeee6; 
+    background-color: #333; 
 }
-/* Additional Background Styles */
+
 body {
-    background: linear-gradient(135deg, #e2e1e0, #0b3f70); /* Gradient background from yellow to gray */
+    background: linear-gradient(135deg, #e2e1e0, #0b3f70); 
 }
-/* CSS for Centering Contact Form */
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Center text inside form */
+    text-align: center; 
 }
-/* CSS for Fancy Fieldset */
+
 fieldset {
-    border: 2px solid #FFA500; /* Orange border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Add padding */
-    margin: 20px 0; /* Add some margin */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    border: 2px solid #FFA500; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
-/* CSS for About LTS and Taco Trivia */
+
 #about {
     color: #000;
-    background-color: #f9f9f9; /* Light gray background */
-    padding: 20px; /* Add padding */
-    border-radius: 10px; /* Add border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
-    margin-bottom: 20px; /* Add some space below */
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
 }
 
 #about h2 {
-    color: #FFA500; /* Orange text color for section title */
+    color: #FFA500; 
 }
 #about h3 {
-    color: #FFA500; /* Orange text color for section title */
+    color: #FFA500; 
 }
 
 #about p {
-    font-size: 18px; /* Larger font size */
-    line-height: 1.6; /* Increase line height */
-    margin-bottom: 15px; /* Add some space below each paragraph */
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
 }
 
 #about aside {
-    background-color: #FFF8DC; /* Cornsilk background color */
-    padding: 10px; /* Add padding */
-    border-radius: 5px; /* Add border radius */
-    margin-top: 20px; /* Add some space above */
+    background-color: #FFF8DC; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-top: 20px; 
 }
 
 #about aside summary {
-    color: #FFA500; /* Orange text color for summary */
+    color: #FFA500; 
 }
 
 #about aside p {
-    margin-bottom: 0; /* Remove bottom margin for paragraphs inside aside */
+    margin-bottom: 0; 
 }
-/* CSS for Caption Background Color */
+
 caption {
-    background-color: #97600e; /* Gray background color */
-    color: #fff; /* White text color */
-    padding: 10px; /* Add padding */
+    background-color: #97600e; 
+    color: #fff; 
+    padding: 10px; 
 }
 
-/* CSS for Contact Form Background Color */
+
 form {
-    background-color: #ffffff; /* White background color */
-    padding: 20px; /* Add padding */
-    border-radius: 10px; /* Add border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
-    max-width: 400px; /* Set maximum width */
-    margin: 0 auto; /* Center the form */
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 400px;
+    margin: 0 auto; 
 }
 
 
-/* CSS for Contact Form Fieldset */
+
 fieldset {
-    border: 2px solid #FFA500; /* Orange border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Add padding */
-    margin: 20px 0; /* Add some margin */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
-}
-/* CSS for Contact Form Labels */
-label {
-    display: block; /* Display labels as block elements */
-    margin-bottom: 10px; /* Add some margin below each label */
+    border: 2px solid #FFA500;
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* CSS for Contact Form Input Fields */
+label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+
 input[type="text"],
 input[type="email"],
 textarea {
-    width: calc(100% - 22px); /* Make input fields and textarea full-width */
-    padding: 10px; /* Add padding */
-    margin-bottom: 10px; /* Add some margin below input fields */
-    border: 1px solid #ccc; /* Add border */
-    border-radius: 5px; /* Add border radius */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: calc(100% - 22px); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
 }
 
-/* CSS for Contact Form Buttons */
+
 button {
-    background-color: #333; /* Orange background color */
-    color: #fff; /* White text color */
-    padding: 10px 20px; /* Add padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add border radius */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: background-color 0.3s ease; /* Add transition effect */
-    display: inline-block; /* Make button inline-block */
-    margin-right: 10px; /* Add margin-right */
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    display: inline-block; 
+    margin-right: 10px; 
 }
 
 button:hover {
-    background-color: FFA500; /* Lighter orange background color on hover */
+    background-color: FFA500; 
 }
-/* CSS for Contact Form Text Color */
+
 form,
 form label,
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    color: #000; /* Black text color */
+    color: #000; 
 }
